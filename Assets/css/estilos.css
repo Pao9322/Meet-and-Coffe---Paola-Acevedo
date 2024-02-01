@@ -1,0 +1,120 @@
+ * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    }
+
+body {
+    text-align: center;
+    font-family:"open sans";
+
+    /* Barra de navegación */
+}
+nav{
+    background-color:black;
+    text-align: left;
+    padding: 20 px 120 px;
+    font-size: 20px;
+}
+nav ul li{
+    display:inline-block;
+    vertical-align: middle;
+    margin-right: 70px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+/* Header */
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 70px;
+    font-family: monospace;
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color: white;
+        }
+
+    header h1{
+        font-size: 60px;
+        }
+        header h2{
+            font-size: 25px;
+            font-weight: lighter;
+            }
+  /* Ubicación */
+#Ubicación{
+    margin: 100px;
+}
+
+#Ubicación h2{
+    font-size: 40px;
+    margin:40px 0px 20px 0px
+}
+#Ubicación p{
+    font-size: 15px;
+   
+}
+
+#Proxima-Charla {
+background: #a4452c;
+padding: 80px;
+color: white;
+}
+
+#Proxima-Charla img, .texto{
+    display: inline-block;
+    vertical-align: middle;
+}
+#Proxima-Charla .texto{
+    text-align: left;
+    margin-left: 40px;
+}
+#Proxima-Charla .texto h3{
+    font-size: 40px;
+}
+
+#Proxima-Charla .texto h4{
+    font-size: 30px;
+}
+#Proxima-Charla .texto h6{
+    font-size: 25px;
+}
+
+#Proxima-Charla .texto span{
+    font-size: 15px;
+   }
+#Proxima-Charla .texto p{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+#eventos {
+    padding: 20px;
+}
+#eventos h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+#eventos article{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+
+
+                        footer{
+                            font-family: 'Open Sans', sans-serif;
+                            text-align: center;
+                            background: #000f08;
+                            color: white;
+                            padding: 20px
+                        }
+                        i {
+                            font-size: 30px
+                            }
